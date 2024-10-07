@@ -109,7 +109,7 @@ else
     rm logo.zip
 # fi
 
-# ### Fetch latest Lockpick_RCM.bin from https://github.com/Decscots/Lockpick_RCM/releases/latest （仓库废弃）
+# ### Fetch latest Lockpick_RCM.bin from https://github.com/Decscots/Lockpick_RCM/releases/latest （仓库废弃！）
 # curl -sL https://api.github.com/repos/Decscots/Lockpick_RCM/releases/latest \
 #   | jq '.tag_name' \
 #   | xargs -I {} echo Lockpick_RCM {} >> ../description.txt
